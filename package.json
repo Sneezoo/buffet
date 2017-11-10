@@ -1,0 +1,22 @@
+{
+  "name": "buffet",
+  "version": "0.0.1",
+  "description": "Query and modify server systems with graphql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sneezoo/buffet.git"
+  },
+  "keywords": [
+    "grahpql"
+  ],
+  "author": "Sneezoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sneezoo/buffet/issues"
+  },
+  "homepage": "https://github.com/Sneezoo/buffet#readme"
+}
