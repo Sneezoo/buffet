@@ -4,7 +4,9 @@
   "description": "Query and modify server systems with graphql",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devserver": "pm2-dev start server.js --interpreter babel-node --name buffet-dev ",
+    "test": "jest",
+    "devtest": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -24,9 +26,11 @@
     "@babel/node": "^7.0.0-beta.31",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0-beta.31",
     "@babel/preset-env": "^7.0.0-beta.31",
+    "babel-jest": "^21.2.0",
     "eslint": "^4.11.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
+    "jest": "^21.2.1",
     "pm2": "^2.7.2"
   },
   "dependencies": {
